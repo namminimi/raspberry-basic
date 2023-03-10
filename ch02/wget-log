@@ -1,0 +1,11 @@
+--2023-03-06 12:22:35--  https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcfile223.uf.daum.net%2Fimage%2F247FAA3E546558E1213B5C
+Resolving external-content.duckduckgo.com (external-content.duckduckgo.com)... 20.43.160.189
+Connecting to external-content.duckduckgo.com (external-content.duckduckgo.com)|20.43.160.189|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/png]
+Saving to: `index.html?u=http:%2F%2Fcfile223.uf.daum.net%2Fimage%2F247FAA3E546558E1213B5C'
+
+          index.htm     [<=>                 ]       0  --.-KB/s                        index.html     [ <=>                ] 147.04K   546KB/s               index.html?u=http:%     [  <=>               ] 338.87K   919KB/s    in 0.4s    
+
+2023-03-06 12:22:37 (919 KB/s) - `index.html?u=http:%2F%2Fcfile223.uf.daum.net%2Fimage%2F247FAA3E546558E1213B5C' saved [347007]
+

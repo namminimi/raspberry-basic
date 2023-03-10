@@ -1,0 +1,27 @@
+body {
+    background: antiquewhite;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main > div:nth-child(1), .main > div:nth-child(2) {
+    width: 50%;
+}
+.main > div:nth-child(3){
+    width: 100%;
+}
+
+.main div button {
+    background: rgb(192,144,144);
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+}
