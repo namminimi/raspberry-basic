@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-size: 120%;
+        }
+        #main {
+            display: table;
+            margin: auto;
+            padding: 0 10px 0 10px;
+        }
+        .button {
+            padding: 5px;
+            width: 100%;
+            font-size: 120%;
+        }
+        #btn1 {
+            background-color: mistyrose;
+        }
+        #btn2 {
+            background-color: honeydew;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h2>웹서버 GPIO제어</h2>
+        {% for pin in pins %} <!-- 파이썬코드 -->
+        <p>The {{pins[pin].name}}  <!-- 내용넣을땐 중과ㅣㄹ호 2번 -->
+        {% if pins[pin].state == True %}
+            <a href="/{{pin}}/off"><button id="btn1">끄기</button></a>
+        {% else %}
+            <a href="/{{pin}}/on"><button id="btn2">켜기</button></a>
+        {% endif %}
+        </p>
+        {% endfor %}
+    </div>
+</body>
+</html>
